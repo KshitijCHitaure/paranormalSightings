@@ -6,7 +6,7 @@ import { getData } from './utils/getData.js';
 import { handleGet,handlePost,handleNews } from './handlers/routeHandlers.js';
 
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const __dirname = import.meta.dirname;
 
